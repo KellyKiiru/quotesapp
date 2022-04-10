@@ -8,8 +8,9 @@ import { Quotes } from 'src/app/quotes';
 })
 export class FormCmpntComponent implements OnInit {
 
-  quote:Quotes[]=[  ]
-  constructor() { }
+  constructor() {
+    
+   }
 
   ngOnInit(): void {
   }

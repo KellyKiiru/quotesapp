@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url('https://cdn.freeyork.org/wp-content/uploads/2014/11/11021260-R3L8T8D-1000-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
