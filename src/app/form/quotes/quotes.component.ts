@@ -7,13 +7,13 @@ import { Quotes } from 'src/app/quotes';
 })
 export class QuotesComponent implements OnInit {
 
-  // quote:Quotes[]=[
-  //   new Quotes('kelly','dont give up', 0, 0),
-  //   new Quotes('kiiru','life is what you make it', 0, 0),
-  //   new Quotes('kelly','there is always a silver lining', 0, 0),
-  //   new Quotes('kelly','never look down on yourself', 0, 0),
-  //   new Quotes('kelly','you have all it takes', 0, 0)
-  // ]
+  quote:Quotes[]=[
+    new Quotes('Author: Dany Gokey','Replace fear of the unknown, with curiosity.', 0, 0),
+    new Quotes('Author: Cris Nikolov','life is what you make it', 0, 0),
+    new Quotes('Author: Neale Donald Walsch','Turn your can’t into a can, and your dream  into plan!', 0, 0),
+    new Quotes('Author: Ruth E. Renkel','You are afraid to die, and you’re afraid to live. What a way to exist.', 0, 0),
+    new Quotes('Author: Dany Gokey','Sometimes the poorest man leaves his children the richest inheritance', 0, 0)
+  ]
   constructor() { }
 
   ngOnInit(): void {

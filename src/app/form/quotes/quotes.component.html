@@ -8,7 +8,7 @@
 
 </div> -->
 <div class="margin-top qwerty">
-    <div class="row" id="qwerty">
+    <div class="" id="qwerty">
         <div class="card col-sm-4">
             <div class="card-body">
                 <h5 class="card-title">Author: Dany Gokey</h5>
@@ -18,8 +18,8 @@
         </div>
         <div class="card col-sm-4">
             <div class="card-body">
-                <h5 class="card-title">Author: Dany Gokey</h5>
-                <p class="card-text">Replace fear of the unknown, with curiosity.</p>
+                <h5 class="card-title">Author: Cris Nikolov</h5>
+                <p class="card-text">Turn your can’t into a can, and your dream  into plan!</p>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
         </div>
@@ -27,17 +27,23 @@
     <div class="row" id="qwerty">
         <div class="card col-sm-4">
             <div class="card-body">
-                <h5 class="card-title">Author: Dany Gokey</h5>
-                <p class="card-text">Replace fear of the unknown, with curiosity.</p>
+                <h5 class="card-title">Author: Neale Donald Walsch</h5>
+                <p class="card-text">You are afraid to die, and you’re afraid to live. What a way to exist.</p>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
         </div>
         <div class="card col-sm-4">
             <div class="card-body">
-                <h5 class="card-title">Author: Dany Gokey</h5>
-                <p class="card-text">Replace fear of the unknown, with curiosity.</p>
+                <h5 class="card-title">Author: Ruth E. Renkel</h5>
+                <p class="card-text">Sometimes the poorest man leaves his children the richest inheritance.</p>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
         </div>
+    </div>
+    <div *ngFor="let quotes of quote" class='zxcvb'>
+        {{quotes.author}}
+        {{quotes.textQuote}}
+        {{quotes.upvote}}
+        {{quotes.downvote}}
     </div>
 </div>
