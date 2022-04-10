@@ -1,1 +1,9 @@
-<p>quotes works!</p>
+<div class="container margin-top bg-danger h-100 quotes">
+    <div *ngFor="let quotes of quote">
+        {{quotes.author}}:
+        {{quotes.textQuote}}:
+        {{quotes.upvote}}:
+        {{quotes.downvote}}
+    </div>
+
+</div>
