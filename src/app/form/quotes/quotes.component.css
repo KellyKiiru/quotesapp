@@ -1,4 +1,17 @@
-.quotes{
+.qwerty{
     text-align: center;
     padding: 20px;
+    /* border: 5px solid white; */
+    /* color: black; */
+}
+#qwerty{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 5px solid red; */
+   
+}
+.card{
+    margin-bottom:20;
+    padding:20;
 }
