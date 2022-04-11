@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { FormCmpntComponent } from './form/form-cmpnt/form-cmpnt.component';
 import { QuotesComponent } from './form/quotes/quotes.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { TimeElapsedPipe } from './time-elapsed.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormCmpntComponent,
     QuotesComponent,
-    NavbarComponent
+    NavbarComponent,
+    TimeElapsedPipe,
   ],
   imports: [
     BrowserModule,
