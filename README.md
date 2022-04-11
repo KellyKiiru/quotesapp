@@ -29,7 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # Quotes app 
 
-![project's landing page](../quotes-app/src/assets/Screenshot%20from%202022-04-11%2011-16-02.png)
+![project's landing page](/src/assets/Screenshot%20from%202022-04-11%2011-16-02.png)
 
 ##### By Kelly Kiiru 
 
