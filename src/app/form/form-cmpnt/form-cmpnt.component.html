@@ -25,6 +25,10 @@
                     <div class='card'>
                         <h4>{{quote.author}} </h4>
                         <p>{{quote.textQuote}}</p>
+                        <!-- <button id="button" type="button" class="btn btn-submit mt-3">check time posted </button> -->
+
+                        <!-- <p id="timePosted">{{quote.timePosted|timeElapsed}}</p> -->
+
                         <button type="button" class="btn btn-submit mt-3" (click)="upvote(i)">upvote</button>
                         <span>upvote : {{quote?.upvote}}</span>
                         <button type="button" class="btn btn-submit mt-3" (click)="downvote(i)">downvote</button>
