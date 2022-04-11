@@ -29,9 +29,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # Quotes app 
 
-![project's landing page](./project-images/readme-image.png)
+![project's landing page](../quotes-app/src/assets/Screenshot%20from%202022-04-11%2011-16-02.png)
 
-##### By Kelly Kiiru  Sylvia Chepkoech  Agness Mbiti  Elsie Akoth  Lydiah Wachira  Sarah Kamunya  Christine Nkatha 
+##### By Kelly Kiiru 
 
 + [Description](#description)
 + [Technology Used](#technology-used)
@@ -41,7 +41,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Description
 
-A website for Nyumbani Realtors, a real estate company, containing properties listed for either sale or rent and the facilities provided, their locations and the contact information.
+Simple web app to add custom quotes and either upvote or downvote them
 
 
 ## Setup/Installation Requirements
@@ -58,43 +58,16 @@ To be able to run this web application, you will need to have a web browser, pre
 
 *HTML - To build the structure of the pages
 *CSS - To style the Pages
-*JavaScript - To make the pages more dynamic.
-*jQuery -To add efects to the pages.
+*TYPESCRIPT
 
-## Known Bugs
-
-There are no known bugs in the project.
 
 ## Support and contact details
 
 For any inquiries or comments, contact us at
 
-Email: lydiahcedric@gmail.com
-telephone: +2546789101112
+Email: kelly.kiiru@student.moringaschool.com
 
-### License
-MIT License
-
-Copyright (c) 2022 lydiah wachira
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
+telephone: +254791495223
 
 ## Authors Info
 
