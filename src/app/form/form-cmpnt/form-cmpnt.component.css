@@ -25,3 +25,6 @@ h2, label{
 .card p {
   color: #80868b;
 }
+#form{
+  display: none;
+}

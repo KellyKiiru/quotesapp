@@ -6,8 +6,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
   
+  // $(document).ready(function(){
+  //   $('#formLoad').click(function(){
+  //     $('#form').show();
+  //   });
+  // });
   constructor() { }
-
+  
   ngOnInit(): void {
     $(document).ready(function(){
       $('#formLoad').click(function(){
