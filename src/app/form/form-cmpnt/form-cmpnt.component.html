@@ -28,6 +28,7 @@
                         <!-- <button id="button" type="button" class="btn btn-submit mt-3">check time posted </button> -->
 
                         <!-- <p id="timePosted">{{quote.timePosted|timeElapsed}}</p> -->
+                        <p id="timePosted">{{quote.timePosted|date: 'short' }}</p>
 
                         <button type="button" class="btn btn-submit mt-3" (click)="upvote(i)">upvote</button>
                         <span>upvote : {{quote?.upvote}}</span>
